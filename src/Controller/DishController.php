@@ -20,7 +20,7 @@ class DishController extends AbstractController
     public function index(): Response
     {
         return $this->render('dish/index.html.twig', [
-            'controller_name' => 'DishController',
+            'controller_name' => 'DishController', 
         ]);
     }
 
